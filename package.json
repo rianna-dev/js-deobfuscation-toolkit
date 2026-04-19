@@ -4,9 +4,11 @@
   "description": "Personal helper scripts for reversing obfuscated JavaScript",
   "private": true,
   "scripts": {
-    "strings": "node deobfuscator/strings.js",
-    "flatten": "node deobfuscator/flatten.js",
-    "run": "node sandbox/executor.js"
+    "strings":   "node deobfuscator/strings.js",
+    "flatten":   "node deobfuscator/flatten.js",
+    "constants": "node deobfuscator/constants.js",
+    "run":       "node sandbox/executor.js",
+    "test":      "node --test test/test.js"
   },
   "dependencies": {
     "@babel/generator": "^7.24.0",
