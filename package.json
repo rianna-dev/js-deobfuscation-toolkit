@@ -1,0 +1,17 @@
+{
+  "name": "js-deobfuscation-toolkit",
+  "version": "0.1.0",
+  "description": "Personal helper scripts for reversing obfuscated JavaScript",
+  "private": true,
+  "scripts": {
+    "strings": "node deobfuscator/strings.js",
+    "flatten": "node deobfuscator/flatten.js",
+    "run": "node sandbox/executor.js"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.24.0",
+    "@babel/parser": "^7.24.0",
+    "@babel/traverse": "^7.24.0",
+    "@babel/types": "^7.24.0"
+  }
+}
